@@ -19,7 +19,7 @@ fn main() {
         process::exit(1);
     });
 
-    println!("The defintion of {word} is {result}! Enjoy your day, skibidi sigma, and make sure to rizz up some level 10 gyatts!")
+    println!("\nThe defintion of {word} is {result}! Enjoy your day, skibidi sigma, and make sure to rizz up some level 10 gyatts!")
 }
 
 fn parse_args(args: &[String]) -> Result<String, &'static str> {
@@ -27,7 +27,7 @@ fn parse_args(args: &[String]) -> Result<String, &'static str> {
         return Err("Please enter the skibidi word you want defined.");
     }
 
-    Ok(args[1].clone().to_lowercase())
+    Ok(args[1].clone().to_lowercase().replace('"', ""))
 }
 
 fn parse_json(path: &str) -> Result<Value, Box<dyn Error>> {
