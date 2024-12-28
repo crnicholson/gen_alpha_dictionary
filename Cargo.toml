@@ -1,5 +1,5 @@
 [package]
-name = "sigma_dict"
+name = "gen_alpha_dictionary"
 version = "0.1.0"
 edition = "2021"
 

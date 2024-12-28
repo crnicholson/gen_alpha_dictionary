@@ -3,6 +3,13 @@
 version = 4
 
 [[package]]
+name = "gen_alpha_dictionary"
+version = "0.1.0"
+dependencies = [
+ "serde_json",
+]
+
+[[package]]
 name = "itoa"
 version = "1.0.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -68,13 +75,6 @@ dependencies = [
  "memchr",
  "ryu",
  "serde",
-]
-
-[[package]]
-name = "sigma_dict"
-version = "0.1.0"
-dependencies = [
- "serde_json",
 ]
 
 [[package]]
