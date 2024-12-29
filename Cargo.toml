@@ -2,6 +2,13 @@
 name = "gen_alpha_dictionary"
 version = "0.1.0"
 edition = "2021"
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/crnicholson/gen_alpha_dictionary"
+repository = "https://github.com/crnicholson/gen_alpha_dictionary"
+readme = "README.md"
+description = "Gives you the description of common gen-alpha words"
+keywords = ["skibidi", "gen-alpha", "rizz", "dictionary", "sigma"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 serde_json = "1.0"
