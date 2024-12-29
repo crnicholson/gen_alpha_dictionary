@@ -10,8 +10,17 @@ fn main() {
         process::exit(1);
     });
 
-    let dict: Value = dictionary::parse_json("dict.json").unwrap_or_else(|err| {
-        println!("Problem parsing dictionary: {err}");
+    // let dict: Value = dictionary::parse_local_json("dict.json").unwrap_or_else(|err| {
+    //     println!("Problem parsing dictionary: {err}");
+    //     process::exit(1);
+    // });
+
+    let dict: Value = dictionary::parse_web_json("https://raw.githubusercontent.com/crnicholson/gen_alpha_dictionary/refs/heads/master/dict.json").unwrap_or_else(|err| {
+        if err.to_string().contains("status code 500") {
+            println!("Problem fetching JSON data.")
+        } else {
+            println!("Problem parsing dictionary: {err}");
+         }
         process::exit(1);
     });
 
