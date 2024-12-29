@@ -20,7 +20,7 @@ fn main() {
             println!("Problem fetching JSON data.")
         } else {
             println!("Problem parsing dictionary: {err}");
-         }
+        }
         process::exit(1);
     });
 

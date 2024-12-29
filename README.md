@@ -31,7 +31,7 @@ let dict: Value = dictionary::parse_web_json("https://raw.githubusercontent.com/
         println!("Problem fetching JSON data.")
     } else {
         println!("Problem parsing dictionary: {err}");
-        }
+    }
     process::exit(1);
 });
 ```
