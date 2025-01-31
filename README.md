@@ -2,6 +2,10 @@
 
 Easily learn gen-alpha (or, as found in the wild, iPad kids) phrases with a Rust Command Line Interface (CLI) and a hand-compiled list of 250 common words and prashes of your favorite 10-year-old. 
 
+## Demo
+
+You can find the demo [here](https://github.com/crnicholson/gen_alpha_dictionary/blob/master/media/demo.png).
+
 ## Install
 
 ### To use as a dependency
