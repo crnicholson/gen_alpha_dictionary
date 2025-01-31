@@ -1,10 +1,12 @@
 # Gen-Alpha Dictionary
 
+<img src="https://github.com/crnicholson/gen_alpha_dictionary/blob/master/media/image.png" alt="Demo photo" width="600"/> 
+
 Easily learn gen-alpha (or, as found in the wild, iPad kids) phrases with a Rust Command Line Interface (CLI) and a hand-compiled list of 250 common words and prashes of your favorite 10-year-old. 
 
 ## Demo
 
-You can find the demo [here](https://github.com/crnicholson/gen_alpha_dictionary/blob/master/media/demo.png).
+You can find the demo [here](https://cloud-16v8cazw7-hack-club-bot.vercel.app/0demo.mp4).
 
 ## Install
 
